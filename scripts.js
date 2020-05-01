@@ -47,17 +47,6 @@ for (let i = 0; i < message.length; i++) {
     array.push(message[i]);
 }
 
-// for (let keys in morse) {
-//     for (let j = 0; j < array.length; j++) {
-//         if (morse[keys] === array[j]) {
-//             msg += keys;
-//             // console.log(msg);
-//             console.log(keys);
-//         }
-//     }
-// }
-// console.log(msg);
-
 for (let j = 0; j < array.length; j++) {
     for (let keys in morse) {
         if (morse[keys] === array[j]) {
