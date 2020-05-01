@@ -1,0 +1,6 @@
+
+- Am invatat cum se lucreaza cu for loop nested si mai exact cum functioneaza.
+- Dupa ce am terminat codul si am vazut ca functioneaza nu l-am testat si nu o functionat cum ar fi trebuit pt ca am comparat obiectul cu codul morse si apoi mesajul. 
+Din acest motiv rezultatul a fost altul pt ca rezultatul era in ordine alfabetica de la A. Am rezolvat problema prin faptul ca primul loop a fost mesajul si cel de-al doilea
+a fost prin codul morse.
+- Am mai invatat sa folosesc Git si Github.
