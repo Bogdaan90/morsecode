@@ -1,4 +1,4 @@
-const message = document.getElementById("input").value;
+const message = document.getElementById("input").value.toUpperCase();
 const result = document.getElementById("minput");
 
 let morse = {
