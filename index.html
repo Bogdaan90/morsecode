@@ -3,8 +3,8 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="style.css" />
         <script src="scripts.js" defer></script>
+        <link rel="stylesheet" href="style.css" />
         <title>Morse Code Convertor</title>
     </head>
     <body>
@@ -18,7 +18,11 @@
                 id="input"
             />
             <label for="morse" class="morse">Morse Code:</label><br />
-            <input type="text" name="morse" class="minput" disabled />
+            <input type="text" name="morse" class="minput" id="minput" />
+            <button id="btn" type="button" onclick="window.location.reload()">
+                Convert
+            </button>
+            <p id="demo"></p>
         </form>
     </body>
 </html>

@@ -1,5 +1,5 @@
 const message = document.getElementById("input").value.toUpperCase();
-const result = document.getElementById("minput");
+let result = document.getElementById("minput");
 
 let morse = {
     ".-": "A",
@@ -56,4 +56,10 @@ for (let j = 0; j < array.length; j++) {
         }
     }
 }
-console.log(msg);
+
+result.value = msg;
+
+document.getElementById("btn").addEventListener("click", function () {
+    let text = document.getElementById("minput");
+    text.value += msg;
+});
